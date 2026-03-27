@@ -108,7 +108,7 @@ Dataset Mode
     - Suggests improvements
 
 Core Logic
-  Vehicle Detection
+  * Vehicle Detection
     * Uses YOLOv8 to detect:
       - Cars 
       - Bikes 
@@ -116,12 +116,16 @@ Core Logic
       - Trucks 
     * Tracks vehicles across frames
     * Identifies lane violations
-
+    * Pedestrian crossing detection
+    * Automated zebra crossing detection
+    * Pedestrian waiting area analysis
+      
 Signal Decision Engine
   * Switches to Protected Left when:
     - Violations exceed threshold
     - Vehicles block lane for long duration
     - Peak hour sensitivity triggers
+    - Pedestrian crossing the road
     
 Risk Assessment
   * Based on:
