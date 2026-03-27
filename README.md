@@ -78,7 +78,7 @@ Project Structure
 
  Installation
   1️⃣ Clone the Repository
-      git clone https://github.com/your-username/Free-Left-Turn-Management-System.git
+      git clone https://github.com/spacedragon51/Free-Left-Turn-Management-System.git
       cd free-left-turn-ai
   2️⃣ Create Virtual Environment
       python -m venv venv
